@@ -1,0 +1,17 @@
+################################################################
+clash-meta
+---------------------------------------------------------------
+- type: vless
+  name: myoverwall.mydoogs.workers.dev
+  server: myoverwall.mydoogs.workers.dev
+  port: 443
+  uuid: 90495592-5c71-49e5-92fd-eea7b8b09879
+  network: ws
+  tls: true
+  udp: false
+  sni: myoverwall.mydoogs.workers.dev
+  client-fingerprint: chrome
+  ws-opts:
+    path: "/?ed=2048"
+    headers:
+      host: myoverwall.mydoogs.workers.dev
